@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T02:33:59.345Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="2lELf2dqN2mwl_imapv1" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-01T03:55:48.111Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="EQmeWNdmbk792YAfXOHX" version="14.4.3" type="github" pages="2">
   <diagram id="1zsFQsm4A9rAdIcauHA-" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,11 +102,11 @@
       <root>
         <mxCell id="nVvnZ7FWzNcinvpqGc-C-0" />
         <mxCell id="nVvnZ7FWzNcinvpqGc-C-1" parent="nVvnZ7FWzNcinvpqGc-C-0" />
-        <mxCell id="nVvnZ7FWzNcinvpqGc-C-2" value="zynq" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+        <mxCell id="nVvnZ7FWzNcinvpqGc-C-2" value="zynq" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
           <mxGeometry x="260" y="210" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="nVvnZ7FWzNcinvpqGc-C-3" value="pc端上位机，作为服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
-          <mxGeometry x="550" y="215" width="170" height="140" as="geometry" />
+        <mxCell id="nVvnZ7FWzNcinvpqGc-C-3" value="pc端上位机软件dts-mqtt.exe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+          <mxGeometry x="500" y="215" width="170" height="140" as="geometry" />
         </mxCell>
         <mxCell id="nVvnZ7FWzNcinvpqGc-C-4" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="nVvnZ7FWzNcinvpqGc-C-1" source="nVvnZ7FWzNcinvpqGc-C-2" target="nVvnZ7FWzNcinvpqGc-C-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -116,8 +116,29 @@
         </mxCell>
         <mxCell id="nVvnZ7FWzNcinvpqGc-C-5" value="网线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nVvnZ7FWzNcinvpqGc-C-4">
           <mxGeometry x="-0.2718" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="12.67" y="-2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KjcJydnsZrXQjGCYSekS-0" value="MCU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+          <mxGeometry x="160" y="210" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KjcJydnsZrXQjGCYSekS-1" value="GK_LD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+          <mxGeometry x="50" y="210" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjcJydnsZrXQjGCYSekS-2" value="GK_RM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+          <mxGeometry x="50" y="250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjcJydnsZrXQjGCYSekS-3" value="BG_LD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+          <mxGeometry x="50" y="290" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjcJydnsZrXQjGCYSekS-4" value="BG_PD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+          <mxGeometry x="50" y="330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yC3D5d9e25KzteN8Wha6-0" value="ARM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+          <mxGeometry x="300" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yC3D5d9e25KzteN8Wha6-1" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nVvnZ7FWzNcinvpqGc-C-1">
+          <mxGeometry x="305" y="310" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
